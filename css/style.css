@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteiner {
+    padding: 0px 50px;
+}
+
+header {
+    background-color: white;
+    width: 100vw;
+}
+
+
+
+h2 {
+    text-align: center;
+    margin-block: 30px 15px;
+    font-size: 40px;
+}
+
+.idioma {
+    background-color: #D96704;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.idioma span {
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.logo-jundiai {
+    display: flex;
+}
+
+#nome-cidade {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.logo-jundiai img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.itens-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    align-items: center;
+}
+
+.itens-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.foto-jundiai {
+    width: 100%;
+}
+
+article {
+    height: 80%;
+}
+
+
+.cards {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cards-curiosidade {
+    margin: 0;
+    margin-bottom: 40px;
+    width: 300px;
+    min-height: 500px auto;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    display: inline-block;
+}
+
+.fundo img {
+    width: 100%;
+    height: 180px;
+}
+
+
+
+h3 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+.conteudo-card h3{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2.0rem;
+    padding-bottom: 10px;
+    color: #1F2E45;
+}
+
+.conteudo-card p {
+    text-align:justify;
+    padding: 10px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    max-width: 400px;
+}
+
+
+.formulario-contato div {
+    display: flex;
+    flex-direction: column;
+}
+
+.botao-enviar{
+    width: 50px;
+    margin-top: 15px;
+}
+
+.redes-sociais {
+    margin-top: 35px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    gap: 35px;
+    background-color: #F3F3F3;
+    align-items: center;
+}
+
+@media(max-width:425px){
+    header {
+        height: 250px;
+        padding-bottom: 200px;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .itens-menu {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .foto-jundiai{
+        margin-top: 40px;
+    }
+    .logo-jundiai {
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+.credito {
+    width: 100vw;
+    display: inline-block;
+    text-align: center;
+    background-color: #D96704;
+}
